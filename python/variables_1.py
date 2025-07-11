@@ -10,6 +10,11 @@ name="Kiran"
 age=25
 is_adult=True
 _isUnemployed=True
+full_Name='Kiran Kumar Boinapally'
+first_name='Kiran'
+last_name='Kumar'
+Name=f"{first_name} {last_name}" 
+#2nd_place = "Silver"  # Can't start with a number
+#if = "test"  # Reserved keyword dont use
 
-
-
+x,y,z=1,2.3,'num'
