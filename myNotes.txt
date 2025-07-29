@@ -1,0 +1,72 @@
+
+Installation of Node.js and git on rhel10!
+Step1:
+curl -fsSL https://rpm.nodesource.com/setup_20.x | sudo bash -
+Step2:
+sudo dnf install -y nodejs
+
+for updating all the existing packages
+sudo dnf update -y
+
+for installing git
+sudo dnf install git -y
+
+for chckeing what are installed
+dnf list installed
+
+for searching only that exists or not!?
+dnf search git
+
+for knowing versions
+dnf info git
+
+
+
+---
+
+systemctl status firewalld
+
+systemctl start firewalld
+
+sudo firewall-cmd --permanent --add-port=3001/tcp
+
+sudo firewall-cmd --reload
+
+sudo firewall-cmd --list-ports
+
+ip a
+
+ifconfig
+
+
+
+---
+
+
+git config --global user.name "kiranraoboinapally"
+
+
+git config --global user.email "kiranraoboinapally@gmail.com"
+
+
+
+---
+
+virsh list --all
+
+
+virsh start <vm-name>
+
+
+virsh shut <vm-name>
+
+
+---
+
+
+kill -9 <PID>
+
+lsof -i :<port-number>
+
+
+
